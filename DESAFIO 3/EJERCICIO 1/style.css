@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+#logo{
+    width: 5%;
+    margin-left: 15px;
+}
+
+ul{
+    border-top: 20px solid blue;
+    display: flex;
+    
+}
+
+li{
+    margin: 20px 0px;
+    padding: 0 50px;
+    font-size: 15pt;
+    color: #04146c;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 72pt;
+    color: #0a2ff1;
+    text-align: center;
+    margin: 70px;
+}
+
+p{
+    font-size: 26pt;
+    color: #04146c;
+    text-align: center;
+    margin: 20px;
+}
+
+footer img {
+    width: 100%;
+    margin-bottom: 0px;
+}

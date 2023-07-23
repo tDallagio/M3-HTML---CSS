@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 34pt; 
+    color: #2c00cc;
+    font-weight: 900;
+    text-align: start;
+    margin: 20px 0px;
+}
+
+h2{
+    color: #04146c;
+    font-size: 23pt;
+    text-align: start;
+    margin: 20px 0px;
+}
+
+label{
+    font-size: 14pt;
+    color: #04146c;
+    font-weight: 600;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    width: 500px;
+    height: 50px;
+    border:1px solid #5e6aaa;
+    margin: 10px 0px;
+}
+
+textarea{
+    width: 500px;
+    height: 100px;
+    border:1px solid #5e6aaa;
+    margin: 10px 0px;
+}
+
+
+#logo{
+    width: 5%;
+    margin-left: 15px;
+}
+
+ul{
+    display: flex; 
+}
+
+li{
+    margin: 20px 0px;
+    padding: 0 50px;
+    font-size: 15pt;
+    color: #04146c;
+    font-weight: 700;
+}
+
+#reset{
+    font-size: 20pt;
+    color: white;
+    background-color:  #f98500;
+    border: 0px;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+
+#submit{
+    font-size: 20pt;
+    color: white;
+    background-color: #2c00cc;
+    border: 0px;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
